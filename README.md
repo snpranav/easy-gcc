@@ -9,6 +9,11 @@ If you're lazy to put in the path to your project folder, then you can just chan
 ```docker
 docker run --rm -v $(pwd):/code snpranav/easy-gcc
 ```
+For different GCC versions, you can add version number to the end of the docker image, for example:
+```
+docker run --rm -v $(pwd):/code snpranav/easy-gcc:<version>
+```
+
 Easy GCC has few versions of GCC on docker hub. If you need a specefic version, then just create and issue.
 
 Pull requests are welcome :)
